@@ -1,0 +1,157 @@
+/* CSS Document */
+/*index container css**{
+	border:#FF0000 1px solid;
+}*/
+#contentLeft,#contentRight{
+	height:100%;
+}
+#contentLeft{
+	float:left;
+	width:25%;
+}
+#contentRight{
+	width:73%;
+	margin-left:27%;
+}
+#productShow{
+	width:100%;
+	height:30%;
+	margin-bottom:15px;
+}
+#productShow .rounded h3 span b a{
+	color:#06F;
+	font-size:14px;
+	font-weight:800;
+	margin-right:10px;
+	float:right;
+}
+#productShow .rounded h3 span b a:hover{
+	color:#00FF33;
+}
+#productShowPanel{
+	position:relative;
+	width:100%;
+	height:170px;
+	overflow:hidden;
+}
+#productShowPanel div{
+	padding-right:0px;
+	background:url(../../images/yyri2.gif) right center no-repeat;
+	display:inline;
+	position:absolute;
+	text-align:center;
+	width:160px;
+	height:160px;
+}
+#productShowPanel img{
+	margin:10px 8px 10px 2px;
+	width:150px;
+	height:120px;
+}
+#rightContainer{
+	width:100%;
+	height:65%;
+}
+#rightLeft{
+	float:left;
+	width:68%;
+	height:100%;
+}
+#news,#serverCenter{
+	width:100%;
+	height:60%;
+}
+#newsHead{
+	z-index:100;
+	height:30px;
+}
+#newsHead ul{
+	margin:0px;
+	padding:0px;
+}
+#newsHead ul li a{
+	padding-top:5px;
+	text-align:center;
+	background:url(../../images/tag-a.gif);
+	border:#FFFFFF solid 1px;
+	border-left:0px;
+	border-bottom:#FFFFFF solid 4px;
+	width:80px;
+	height:20px;
+	float:left;
+}
+#newsHead ul li a:hover{
+	background:url(../../images/tag-aa.gif);
+}
+#news .rounded{
+	margin-top:-6px;
+}
+#news .rounded .main ul{
+	display:none;
+	padding:0px;
+}
+#news .rounded .main ul li{
+	position:relative;
+	background:url(../../images/arr2.gif) left center no-repeat;
+	padding:4px 0px 4px 15px;
+}
+#news .rounded .main ul li:hover{
+	background:url(../../images/arr2a.gif) left center no-repeat;
+}
+#news .rounded .main ul li big{
+	font-size:12px;
+	position:absolute;
+	right:10px;
+}
+#news .footer p a{
+	margin:0px 5px 5px 85%;
+}
+#serverCenter ul{
+	margin:10px 0px 5px;
+	padding:0px;
+}
+#serverCenter ul li{
+	padding-left:20px;
+	padding-top:5px;
+	height:50px;
+	display:block;
+	background:url(../../images/s1a.jpg) no-repeat;
+}
+#serverCenter ul li a{
+	color:#F00;
+}
+#serverCenter ul li a:hover{
+	color:#00F;
+}
+#apply,#sellNet{
+	margin-top:15px;
+	width:100%;
+	height:35%;
+}
+#apply .main{
+	text-align:center;
+}
+#apply img{
+	padding:5px 0px 5px;
+}
+#sellNet .main{
+	height:122px;
+}
+#sellNet img{
+	float:left;
+	margin:30px 0px 20px 0px;
+	width:130px;
+	height:80px;
+}
+#sellNet .main a{
+	margin-top:100px;
+}
+#sellNet .main center{
+	position:relative;
+	top:40px;
+}
+#rightRight{
+	margin-left:70%;
+	width:30%;
+	height:100%;
+}

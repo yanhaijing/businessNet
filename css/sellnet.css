@@ -1,0 +1,41 @@
+/* CSS Document */
+#productHead{
+	padding:20px;
+	background:#F7F7F7;
+	color:#666;
+	font-weight:800;
+}
+#productHeadRight{
+	margin:auto auto auto 40%;
+}
+#checkbox{
+	color:#ff6600;
+	display:block;
+	margin:20px auto auto 50%;
+}
+#checkbox input{
+	margin:auto auto auto 20px;
+}
+.product{
+	border-bottom:#CCCCCC solid 1px;
+	padding-top:10px;
+	height:143px;
+}
+.product img{
+	width:172px;
+	height:143px; 
+	float:left;
+}
+.product span{
+	margin:5px 0px 0px 192px;
+	display:block;
+}
+.product span center{
+	margin:auto auto auto 100px;
+	display:inline;
+}
+.product span center a img{
+	float:none;
+	width:70px;
+	height:23px;
+}

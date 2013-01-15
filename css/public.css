@@ -1,0 +1,214 @@
+/* CSS Document */
+/*公共部分*/
+a{
+	text-decoration:none;
+	color:#666666;
+}
+a:hover{
+	color:#003399;
+}
+ul{
+	list-style:none;
+}
+img{
+	border:0px;
+}
+html{
+	border-color:#00FF00;
+	background:#FFF;
+	font-size:12px;
+	color:#CCCCCC;
+}
+body{
+	border-color:#000000;
+	width:944px;
+	height:auto;
+	margin:0 auto;
+}
+#header,#link,#content,#footer{
+	width:100%;
+}
+#header{
+	height:64px;
+}
+#header img{
+	float:left;
+}
+#header ul{
+	float:right;
+	margin-top:40px;
+}
+#header ul li{
+	float:left;
+	margin-right:10px;
+	
+}
+#link{
+	padding:0px;
+	height:57px;
+	background:url(../images/link/link.jpg) repeat-x;
+}
+#link ul li{
+	float:left;
+}
+#linkMenu{
+	width:100%;
+	height:33px;
+	padding:0px;
+	background:url(../images/link/linkRight.jpg) right top no-repeat;
+}
+#linkMenu ul{
+	padding:0px;
+	height:100%;
+	background:url(../images/link/linkLeft.jpg) left top no-repeat;
+}
+#linkMenu ul li{
+	height:100%;
+	width:94px;
+	text-align:center;
+}
+#linkMenu a{
+	display:block;
+	padding-top:8px;
+	height:100%;
+	color:#FFF;
+}
+#linkMenu a:hover{
+	background:url(../images/link/menu-a.gif) no-repeat center 3px;
+	color:#9fd2fd;
+}
+#linkPanel{
+	width:100%;
+	height:24px;
+	background:url(../images/link/linkPanelRight.jpg) right top no-repeat;
+}
+#linkPanel a{
+	color:#999999;
+}
+#linkPanel a:hover{
+	color:#0066CC;
+}
+#linkPanel ul{
+	display:none;
+	background:url(../images/link/linkPanelLeft.jpg) no-repeat;
+	margin:0px;
+	height:24px;
+}
+#linkPanel ul li{
+	padding-top:4px;
+	margin-right:10px;
+}
+#banner{
+	height:188px;
+	width:100%;
+}
+#content{
+	min-height:600px;
+	margin-top:15px;
+	height:auto;
+}
+#left{
+	float:left;
+	width:25%;
+}
+#productSearch .main form{
+	padding-top:10px;
+	float:right;
+}
+#productSearch .main form img{
+	margin-left:10px;
+	float:right;
+	cursor:pointer;
+}
+#productSearch .main input{
+	margin:0px 0px 0px 5px;
+}
+#productSearch{
+	height:11%;
+}
+#productList{
+	overflow:hidden;
+	z-index:100;
+	height:30%;
+}
+#productList a{
+	color:#666;
+}
+#productList a:hover{
+	color:#069;
+}
+#productList .main ul{
+	padding:0px 0px 0px 15px;
+	font-size:14px;
+}
+#productList .main ul img{
+	cursor:pointer;
+}
+#productList .main ul ul{
+	padding:0px;
+	display:none;
+	font-size:12px;
+}
+#productSearch,#productList,#vipCenter,#videoCenter{
+	width:100%;
+	margin-bottom:15px;
+}
+#vipCenter,#videoCenter{
+	height:25%;
+}
+#vipCenter form{
+	text-align:center;
+	margin:20px auto 10px;
+}
+#vipCenter form input{
+	margin:0px auto 10px;
+}
+#videoCenter .main{
+	padding:10px 10px 5px;
+}
+#modelNavigate{
+	margin-bottom:15px;
+}
+#modelNavigate .main ul{
+	padding:0px 0px 0px 15px;
+}
+#modelNavigate .main ul li{
+	padding:5px 0px 4px 10px;
+	background:url(../images/navbg.gif) left center no-repeat;
+}
+#modelNavigate .main ul li:hover{
+	background:url(../images/navbgA.gif) left center no-repeat;
+}
+#modelNavigate .main ul li a:hover{
+	color:#ff6600;
+}
+#right{
+	margin-left:27.9%;
+	width:72%;
+}
+#right .rounded h3 span b{
+	font-weight:100;
+	font-size:12px;
+}
+#right .rounded h3 span b a{
+	color:#003399;
+}
+#right .rounded h3 span b a:hover{
+	color:#ff6600;
+}
+#right .rounded .main {
+	padding:10px 20px 10px 20px;
+}
+#footer{
+	color:#666;
+	text-align:center;
+	height:60px;
+}
+#footer img{
+	width:100%;
+	height:3px;
+}
+.center{
+	display:block;
+	margin:auto;
+}

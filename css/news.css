@@ -1,0 +1,39 @@
+/* CSS Document */
+#newsHead{
+	border:#999 solid 1px;
+	padding:5px 10px 5px 10px;
+}
+#newsHead span{
+	color:#ff6600;
+}
+#newTitle{
+	margin-left:10px;
+}
+#newTime{
+	margin-left:400px;
+}
+#newCount{
+	margin-left:50px;
+}
+#right .rounded .main ul{
+	padding:0px;
+}
+#right .rounded .main ul li{
+	position:relative;
+	background:url(../images/arr2.gif) left center no-repeat;
+	padding:4px 0px 4px 15px;
+}
+#right .rounded .main ul li:hover{
+	background:url(../images/arr2a.gif) left center no-repeat;
+}
+.newContentCount{
+	float:right;
+	margin-right:40px;
+}
+.newContentTime{
+	float:right;
+	margin-right:60px;
+}
+#newLink{
+	margin-left:20%;
+}

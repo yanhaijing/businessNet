@@ -1,0 +1,13 @@
+/* CSS Document */
+#productBody{
+	border-bottom:#CCC solid 1px;
+	margin:20px;
+}
+#productBody div{
+	text-align:center;
+	margin:10px;
+}
+#productBody img{
+	display:block;
+	margin:10px auto;
+}

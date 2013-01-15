@@ -1,0 +1,52 @@
+/* CSS Document */
+/*圆角css*/
+.rounded
+{
+	padding:0px;
+	width:100%;
+	background:#FFFFFF;
+	background:url(../../images/imageRound/skin/left_top.gif) top left no-repeat;
+	}
+.rounded h3
+{
+	font-size:14px;
+	color:#039;
+	background:url(../../images/imageRound/skin/right_top.gif) top right no-repeat;
+	padding:4px 9px 20px 4px;
+	margin:0;
+	}
+.rounded .main
+{
+	font-size:12px;
+	color:#666666;
+	background:url(../../images/imageRound/skin/right.gif) top right repeat-y;
+	padding:0px 10px 0px 10px;
+	margin:-2em 0 0 0;
+	}	
+.rounded .footer{
+	background:url(../../images/imageRound/skin/left_bottom.gif) bottom left no-repeat;
+}
+.rounded .footer p{
+	background:url(../../images/imageRound/skin/right_bottom.gif) bottom right no-repeat;
+	display:block;
+	padding:10px 0px 20px;
+	margin:-2em 0 0 0;
+}
+
+.rounded h3 span{
+	height:31px;
+	display:block;
+	background:url(../../images/panelBgLeft.gif) left top no-repeat;
+}
+
+.rounded h3 b{
+	font-weight:800;
+	padding-top:4px;
+	padding-left:6px;
+	display:block;
+	height:100%;
+	width:100%;
+	background:url(../../images/panelBgRight.gif) right top no-repeat;
+}
+	
+
